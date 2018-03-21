@@ -20,13 +20,13 @@ class Verb {
     var sample2 : String
     var sample3 : String
     var common : Int
-    var group : Int
+    var regular : Int
     var color : Int
     var score : Int
     var notes : String
     var translationEN : String
-    var translationES : String
     var translationPT : String
+    var translationFR : String
     
     
     // MARK: Initializer
@@ -39,13 +39,13 @@ class Verb {
         sample2 = dictionary["s2"] as! String
         sample3 = dictionary["s3"] as! String
         common = dictionary["co"] as! Int
-        group = dictionary["gr"] as! Int
+        regular = dictionary["gr"] as! Int
         color  = 0
         score = 0
         notes = dictionary["no"] as! String
         translationEN = dictionary["tren"] as! String
-        translationES = dictionary["tres"] as! String
         translationPT = dictionary["trpt"] as! String
+        translationFR = dictionary["trfr"] as! String
     }
     
 }
