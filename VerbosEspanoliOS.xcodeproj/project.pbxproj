@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		829EE5982063029A00A283D2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829EE5972063029A00A283D2 /* SettingsViewController.swift */; };
+		829EE59A2063033100A283D2 /* VerbListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829EE5992063033100A283D2 /* VerbListViewController.swift */; };
+		829EE59C2063040200A283D2 /* VerbDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829EE59B2063040200A283D2 /* VerbDetailsViewController.swift */; };
+		829EE59E206304BD00A283D2 /* VerbTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829EE59D206304BD00A283D2 /* VerbTableViewCell.swift */; };
+		82A7D80C206083BB00480A6E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A7D80B206083BB00480A6E /* Constants.swift */; };
+		82A7D80E2060846000480A6E /* ViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A7D80D2060846000480A6E /* ViewUtils.swift */; };
+		82A7D8112060858900480A6E /* Verb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A7D8102060858900480A6E /* Verb.swift */; };
+		82A7D813206085C400480A6E /* Conjugation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A7D812206085C400480A6E /* Conjugation.swift */; };
+		82A7D8152060861F00480A6E /* Speaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A7D8142060861F00480A6E /* Speaker.swift */; };
+		82A7D81A206087A300480A6E /* conjugations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82A7D817206087A300480A6E /* conjugations.plist */; };
+		82A7D81B206087A300480A6E /* api_keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82A7D818206087A300480A6E /* api_keys.plist */; };
+		82A7D81C206087A300480A6E /* verbs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82A7D819206087A300480A6E /* verbs.plist */; };
 		82ABC963205C849D00C0D6E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ABC962205C849D00C0D6E4 /* AppDelegate.swift */; };
 		82ABC965205C849D00C0D6E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ABC964205C849D00C0D6E4 /* ViewController.swift */; };
 		82ABC968205C849D00C0D6E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82ABC966205C849D00C0D6E4 /* Main.storyboard */; };
@@ -35,6 +47,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		829EE5972063029A00A283D2 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		829EE5992063033100A283D2 /* VerbListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerbListViewController.swift; sourceTree = "<group>"; };
+		829EE59B2063040200A283D2 /* VerbDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerbDetailsViewController.swift; sourceTree = "<group>"; };
+		829EE59D206304BD00A283D2 /* VerbTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerbTableViewCell.swift; sourceTree = "<group>"; };
+		82A7D80B206083BB00480A6E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		82A7D80D2060846000480A6E /* ViewUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewUtils.swift; sourceTree = "<group>"; };
+		82A7D8102060858900480A6E /* Verb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verb.swift; sourceTree = "<group>"; };
+		82A7D812206085C400480A6E /* Conjugation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conjugation.swift; sourceTree = "<group>"; };
+		82A7D8142060861F00480A6E /* Speaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speaker.swift; sourceTree = "<group>"; };
+		82A7D817206087A300480A6E /* conjugations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = conjugations.plist; sourceTree = "<group>"; };
+		82A7D818206087A300480A6E /* api_keys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = api_keys.plist; sourceTree = "<group>"; };
+		82A7D819206087A300480A6E /* verbs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = verbs.plist; sourceTree = "<group>"; };
 		82ABC95F205C849D00C0D6E4 /* VerbosEspanoliOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerbosEspanoliOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82ABC962205C849D00C0D6E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82ABC964205C849D00C0D6E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +100,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82A7D809206082FE00480A6E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				82A7D80A2060831D00480A6E /* Utils */,
+				82ABC964205C849D00C0D6E4 /* ViewController.swift */,
+				829EE5972063029A00A283D2 /* SettingsViewController.swift */,
+				829EE5992063033100A283D2 /* VerbListViewController.swift */,
+				829EE59B2063040200A283D2 /* VerbDetailsViewController.swift */,
+				829EE59D206304BD00A283D2 /* VerbTableViewCell.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		82A7D80A2060831D00480A6E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				82A7D80B206083BB00480A6E /* Constants.swift */,
+				82A7D80D2060846000480A6E /* ViewUtils.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		82A7D80F2060855C00480A6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				82A7D8102060858900480A6E /* Verb.swift */,
+				82A7D812206085C400480A6E /* Conjugation.swift */,
+				82A7D8142060861F00480A6E /* Speaker.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		82A7D816206086DA00480A6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82A7D818206087A300480A6E /* api_keys.plist */,
+				82A7D817206087A300480A6E /* conjugations.plist */,
+				82A7D819206087A300480A6E /* verbs.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		82ABC956205C849D00C0D6E4 = {
 			isa = PBXGroup;
 			children = (
@@ -99,12 +165,14 @@
 		82ABC961205C849D00C0D6E4 /* VerbosEspanoliOS */ = {
 			isa = PBXGroup;
 			children = (
+				82A7D809206082FE00480A6E /* Controller */,
+				82A7D80F2060855C00480A6E /* Model */,
 				82ABC962205C849D00C0D6E4 /* AppDelegate.swift */,
-				82ABC964205C849D00C0D6E4 /* ViewController.swift */,
 				82ABC966205C849D00C0D6E4 /* Main.storyboard */,
 				82ABC96C205C849D00C0D6E4 /* Assets.xcassets */,
 				82ABC96E205C849D00C0D6E4 /* LaunchScreen.storyboard */,
 				82ABC971205C849D00C0D6E4 /* Info.plist */,
+				82A7D816206086DA00480A6E /* Supporting Files */,
 				82ABC969205C849D00C0D6E4 /* VerbosEspanoliOS.xcdatamodeld */,
 			);
 			path = VerbosEspanoliOS;
@@ -235,9 +303,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82A7D81A206087A300480A6E /* conjugations.plist in Resources */,
 				82ABC970205C849D00C0D6E4 /* LaunchScreen.storyboard in Resources */,
 				82ABC96D205C849D00C0D6E4 /* Assets.xcassets in Resources */,
+				82A7D81B206087A300480A6E /* api_keys.plist in Resources */,
 				82ABC968205C849D00C0D6E4 /* Main.storyboard in Resources */,
+				82A7D81C206087A300480A6E /* verbs.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +333,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82A7D8112060858900480A6E /* Verb.swift in Sources */,
 				82ABC965205C849D00C0D6E4 /* ViewController.swift in Sources */,
+				829EE59C2063040200A283D2 /* VerbDetailsViewController.swift in Sources */,
+				82A7D80E2060846000480A6E /* ViewUtils.swift in Sources */,
+				829EE59E206304BD00A283D2 /* VerbTableViewCell.swift in Sources */,
+				829EE59A2063033100A283D2 /* VerbListViewController.swift in Sources */,
+				82A7D8152060861F00480A6E /* Speaker.swift in Sources */,
 				82ABC963205C849D00C0D6E4 /* AppDelegate.swift in Sources */,
 				82ABC96B205C849D00C0D6E4 /* VerbosEspanoliOS.xcdatamodeld in Sources */,
+				82A7D80C206083BB00480A6E /* Constants.swift in Sources */,
+				82A7D813206085C400480A6E /* Conjugation.swift in Sources */,
+				829EE5982063029A00A283D2 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
