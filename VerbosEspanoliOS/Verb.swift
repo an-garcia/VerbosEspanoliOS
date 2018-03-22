@@ -39,7 +39,7 @@ class Verb {
         sample2 = dictionary["s2"] as! String
         sample3 = dictionary["s3"] as! String
         common = dictionary["co"] as! Int
-        regular = dictionary["gr"] as! Int
+        regular = dictionary["re"] as! Int
         color  = 0
         score = 0
         notes = dictionary["no"] as! String
