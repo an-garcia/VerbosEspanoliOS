@@ -53,7 +53,7 @@
             <string>amáis</string>
             <key>in_pres_ell</key>
             <string>aman</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>amaba</string>
             <key>in_pret_imp_t</key>
             <string>amabas</string>
@@ -283,7 +283,7 @@
             <string>teméis</string>
             <key>in_pres_ell</key>
             <string>temen</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>temía</string>
             <key>in_pret_imp_t</key>
             <string>temías</string>
@@ -513,7 +513,7 @@
             <string>partís</string>
             <key>in_pres_ell</key>
             <string>parten</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>partía</string>
             <key>in_pret_imp_t</key>
             <string>partías</string>
@@ -743,7 +743,7 @@
             <string>anunciáis</string>
             <key>in_pres_ell</key>
             <string>anuncian</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>anunciaba</string>
             <key>in_pret_imp_t</key>
             <string>anunciabas</string>
@@ -973,7 +973,7 @@
             <string>enviáis</string>
             <key>in_pres_ell</key>
             <string>envían</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>enviaba</string>
             <key>in_pret_imp_t</key>
             <string>enviabas</string>
@@ -1203,7 +1203,7 @@
             <string>averiguáis</string>
             <key>in_pres_ell</key>
             <string>averiguan</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>averiguaba</string>
             <key>in_pret_imp_t</key>
             <string>averiguabas</string>
@@ -1433,7 +1433,7 @@
             <string>actuáis</string>
             <key>in_pres_ell</key>
             <string>actúan</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>actuaba</string>
             <key>in_pret_imp_t</key>
             <string>actuabas</string>
@@ -1663,7 +1663,7 @@
             <string>bailáis</string>
             <key>in_pres_ell</key>
             <string>bailan</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>bailaba</string>
             <key>in_pret_imp_t</key>
             <string>bailabas</string>
@@ -1893,7 +1893,7 @@
             <string>aisláis</string>
             <key>in_pres_ell</key>
             <string>aíslan</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>aislaba</string>
             <key>in_pret_imp_t</key>
             <string>aislabas</string>
@@ -2123,7 +2123,7 @@
             <string>causáis</string>
             <key>in_pres_ell</key>
             <string>causan</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>causaba</string>
             <key>in_pret_imp_t</key>
             <string>causabas</string>
@@ -2353,7 +2353,7 @@
             <string>aunáis</string>
             <key>in_pres_ell</key>
             <string>aúnan</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>aunaba</string>
             <key>in_pret_imp_t</key>
             <string>aunabas</string>
@@ -2583,7 +2583,7 @@
             <string>peináis</string>
             <key>in_pres_ell</key>
             <string>peinan</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>peinaba</string>
             <key>in_pret_imp_t</key>
             <string>peinabas</string>
@@ -2813,7 +2813,7 @@
             <string>descafeináis</string>
             <key>in_pres_ell</key>
             <string>descafeínan</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>descafeinaba</string>
             <key>in_pret_imp_t</key>
             <string>descafeinabas</string>
@@ -3043,7 +3043,7 @@
             <string>adeudáis</string>
             <key>in_pres_ell</key>
             <string>adeudan</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>adeudaba</string>
             <key>in_pret_imp_t</key>
             <string>adeudabas</string>
@@ -3273,7 +3273,7 @@
             <string>rehusáis</string>
             <key>in_pres_ell</key>
             <string>rehúsan</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>rehusaba</string>
             <key>in_pret_imp_t</key>
             <string>rehusabas</string>
@@ -3505,7 +3505,7 @@
             <string>acertáis</string>
             <key>in_pres_ell</key>
             <string>aciertan</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>acertaba</string>
             <key>in_pret_imp_t</key>
             <string>acertabas</string>
@@ -3735,7 +3735,7 @@
             <string>adquirís</string>
             <key>in_pres_ell</key>
             <string>adquieren</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>adquiría</string>
             <key>in_pret_imp_t</key>
             <string>adquirías</string>
@@ -3965,7 +3965,7 @@
             <string>agradecéis</string>
             <key>in_pres_ell</key>
             <string>agradecen</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>agradecía</string>
             <key>in_pret_imp_t</key>
             <string>agradecías</string>
@@ -4195,7 +4195,7 @@
             <string>andáis</string>
             <key>in_pres_ell</key>
             <string>andan</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>andaba</string>
             <key>in_pret_imp_t</key>
             <string>andabas</string>
@@ -4425,7 +4425,7 @@
             <string>asís</string>
             <key>in_pres_ell</key>
             <string>asen</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>asía</string>
             <key>in_pret_imp_t</key>
             <string>asías</string>
@@ -4655,7 +4655,7 @@
             <string>cabéis</string>
             <key>in_pres_ell</key>
             <string>caben</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>cabía</string>
             <key>in_pret_imp_t</key>
             <string>cabías</string>
@@ -4885,7 +4885,7 @@
             <string>caéis</string>
             <key>in_pres_ell</key>
             <string>caen</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>caía</string>
             <key>in_pret_imp_t</key>
             <string>caías</string>
@@ -5115,7 +5115,7 @@
             <string>ceñís</string>
             <key>in_pres_ell</key>
             <string>ciñen</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>ceñía</string>
             <key>in_pret_imp_t</key>
             <string>ceñías</string>
@@ -5345,7 +5345,7 @@
             <string>conducís</string>
             <key>in_pres_ell</key>
             <string>conducen</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>conducía</string>
             <key>in_pret_imp_t</key>
             <string>conducías</string>
@@ -5575,7 +5575,7 @@
             <string>construís</string>
             <key>in_pres_ell</key>
             <string>construyen</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>construía</string>
             <key>in_pret_imp_t</key>
             <string>construías</string>
@@ -5805,7 +5805,7 @@
             <string>contáis</string>
             <key>in_pres_ell</key>
             <string>cuentan</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>contaba</string>
             <key>in_pret_imp_t</key>
             <string>contabas</string>
@@ -6035,7 +6035,7 @@
             <string>dais</string>
             <key>in_pres_ell</key>
             <string>dan</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>daba</string>
             <key>in_pret_imp_t</key>
             <string>dabas</string>
@@ -6265,7 +6265,7 @@
             <string>decís</string>
             <key>in_pres_ell</key>
             <string>dicen</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>decía</string>
             <key>in_pret_imp_t</key>
             <string>decías</string>
@@ -6495,7 +6495,7 @@
             <string>discernís</string>
             <key>in_pres_ell</key>
             <string>disciernen</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>discernía</string>
             <key>in_pret_imp_t</key>
             <string>discernías</string>
@@ -6725,7 +6725,7 @@
             <string>dormís</string>
             <key>in_pres_ell</key>
             <string>duermen</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>dormía</string>
             <key>in_pret_imp_t</key>
             <string>dormías</string>
@@ -6955,7 +6955,7 @@
             <string>entendéis</string>
             <key>in_pres_ell</key>
             <string>entienden</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>entendía</string>
             <key>in_pret_imp_t</key>
             <string>entendías</string>
@@ -7185,7 +7185,7 @@
             <string>erguís</string>
             <key>in_pres_ell</key>
             <string>yerguen</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>erguía</string>
             <key>in_pret_imp_t</key>
             <string>erguías</string>
@@ -7415,7 +7415,7 @@
             <string>erráis</string>
             <key>in_pres_ell</key>
             <string>yerran</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>erraba</string>
             <key>in_pret_imp_t</key>
             <string>errabas</string>
@@ -7645,7 +7645,7 @@
             <string>estáis</string>
             <key>in_pres_ell</key>
             <string>están</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>estaba</string>
             <key>in_pret_imp_t</key>
             <string>estabas</string>
@@ -7875,7 +7875,7 @@
             <string>habéis</string>
             <key>in_pres_ell</key>
             <string>han</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>había</string>
             <key>in_pret_imp_t</key>
             <string>habías</string>
@@ -8105,7 +8105,7 @@
             <string>hacéis</string>
             <key>in_pres_ell</key>
             <string>hacen</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>hacía</string>
             <key>in_pret_imp_t</key>
             <string>hacías</string>
@@ -8335,7 +8335,7 @@
             <string>vais</string>
             <key>in_pres_ell</key>
             <string>van</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>iba</string>
             <key>in_pret_imp_t</key>
             <string>ibas</string>
@@ -8565,7 +8565,7 @@
             <string>jugáis</string>
             <key>in_pres_ell</key>
             <string>juegan</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>jugaba</string>
             <key>in_pret_imp_t</key>
             <string>jugabas</string>
@@ -8795,7 +8795,7 @@
             <string>leéis</string>
             <key>in_pres_ell</key>
             <string>leen</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>leía</string>
             <key>in_pret_imp_t</key>
             <string>leías</string>
@@ -9025,7 +9025,7 @@
             <string>lucís</string>
             <key>in_pres_ell</key>
             <string>lucen</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>lucía</string>
             <key>in_pret_imp_t</key>
             <string>lucías</string>
@@ -9255,7 +9255,7 @@
             <string>movéis</string>
             <key>in_pres_ell</key>
             <string>mueven</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>movía</string>
             <key>in_pret_imp_t</key>
             <string>movías</string>
@@ -9485,7 +9485,7 @@
             <string>mullís</string>
             <key>in_pres_ell</key>
             <string>mullen</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>mullía</string>
             <key>in_pret_imp_t</key>
             <string>mullías</string>
@@ -9715,7 +9715,7 @@
             <string>oís</string>
             <key>in_pres_ell</key>
             <string>oyen</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>oía</string>
             <key>in_pret_imp_t</key>
             <string>oías</string>
@@ -9945,7 +9945,7 @@
             <string>oléis</string>
             <key>in_pres_ell</key>
             <string>huelen</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>olía</string>
             <key>in_pret_imp_t</key>
             <string>olías</string>
@@ -10175,7 +10175,7 @@
             <string>pedís</string>
             <key>in_pres_ell</key>
             <string>piden</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>pedía</string>
             <key>in_pret_imp_t</key>
             <string>pedías</string>
@@ -10405,7 +10405,7 @@
             <string>podéis</string>
             <key>in_pres_ell</key>
             <string>pueden</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>podía</string>
             <key>in_pret_imp_t</key>
             <string>podías</string>
@@ -10635,7 +10635,7 @@
             <string>ponéis</string>
             <key>in_pres_ell</key>
             <string>ponen</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>ponía</string>
             <key>in_pret_imp_t</key>
             <string>ponías</string>
@@ -10865,7 +10865,7 @@
             <string>pudrís o podrís</string>
             <key>in_pres_ell</key>
             <string>pudren</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>pudría o podría</string>
             <key>in_pret_imp_t</key>
             <string>pudrías o podrías</string>
@@ -11095,7 +11095,7 @@
             <string>queréis</string>
             <key>in_pres_ell</key>
             <string>quieren</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>quería</string>
             <key>in_pret_imp_t</key>
             <string>querías</string>
@@ -11325,7 +11325,7 @@
             <string>roéis</string>
             <key>in_pres_ell</key>
             <string>roen</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>roía</string>
             <key>in_pret_imp_t</key>
             <string>roías</string>
@@ -11555,7 +11555,7 @@
             <string>sabéis</string>
             <key>in_pres_ell</key>
             <string>saben</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>sabía</string>
             <key>in_pret_imp_t</key>
             <string>sabías</string>
@@ -11785,7 +11785,7 @@
             <string>salís</string>
             <key>in_pres_ell</key>
             <string>salen</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>salía</string>
             <key>in_pret_imp_t</key>
             <string>salías</string>
@@ -12015,7 +12015,7 @@
             <string>sentís</string>
             <key>in_pres_ell</key>
             <string>sienten</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>sentía</string>
             <key>in_pret_imp_t</key>
             <string>sentías</string>
@@ -12245,7 +12245,7 @@
             <string>sois</string>
             <key>in_pres_ell</key>
             <string>son</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>era</string>
             <key>in_pret_imp_t</key>
             <string>eras</string>
@@ -12475,7 +12475,7 @@
             <string>sonreís</string>
             <key>in_pres_ell</key>
             <string>sonríen</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>sonreía</string>
             <key>in_pret_imp_t</key>
             <string>sonreías</string>
@@ -12705,7 +12705,7 @@
             <string>tañéis</string>
             <key>in_pres_ell</key>
             <string>tañen</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>tañía</string>
             <key>in_pret_imp_t</key>
             <string>tañías</string>
@@ -12935,7 +12935,7 @@
             <string>tenéis</string>
             <key>in_pres_ell</key>
             <string>tienen</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>tenía</string>
             <key>in_pret_imp_t</key>
             <string>tenías</string>
@@ -13165,7 +13165,7 @@
             <string>traéis</string>
             <key>in_pres_ell</key>
             <string>traen</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>traía</string>
             <key>in_pret_imp_t</key>
             <string>traías</string>
@@ -13395,7 +13395,7 @@
             <string>valéis</string>
             <key>in_pres_ell</key>
             <string>valen</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>valía</string>
             <key>in_pret_imp_t</key>
             <string>valías</string>
@@ -13625,7 +13625,7 @@
             <string>venís</string>
             <key>in_pres_ell</key>
             <string>vienen</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>venía</string>
             <key>in_pret_imp_t</key>
             <string>venías</string>
@@ -13855,7 +13855,7 @@
             <string>veis</string>
             <key>in_pres_ell</key>
             <string>ven</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>veía</string>
             <key>in_pret_imp_t</key>
             <string>veías</string>
@@ -14085,7 +14085,7 @@
             <string>yacéis</string>
             <key>in_pres_ell</key>
             <string>yacen</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>yacía</string>
             <key>in_pret_imp_t</key>
             <string>yacías</string>
@@ -14315,7 +14315,7 @@
             <string>sacáis</string>
             <key>in_pres_ell</key>
             <string>sacan</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>sacaba</string>
             <key>in_pret_imp_t</key>
             <string>sacabas</string>
@@ -14545,7 +14545,7 @@
             <string>llegáis</string>
             <key>in_pres_ell</key>
             <string>llegan</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>llegaba</string>
             <key>in_pret_imp_t</key>
             <string>llegabas</string>
@@ -14775,7 +14775,7 @@
             <string>forzáis</string>
             <key>in_pres_ell</key>
             <string>fuerzan</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>forzaba</string>
             <key>in_pret_imp_t</key>
             <string>forzabas</string>
@@ -15005,7 +15005,7 @@
             <string>cazáis</string>
             <key>in_pres_ell</key>
             <string>cazan</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>cazaba</string>
             <key>in_pret_imp_t</key>
             <string>cazabas</string>
@@ -15235,7 +15235,7 @@
             <string>cogéis</string>
             <key>in_pres_ell</key>
             <string>cogen</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>cogía</string>
             <key>in_pret_imp_t</key>
             <string>cogías</string>
@@ -15465,7 +15465,7 @@
             <string>negáis</string>
             <key>in_pres_ell</key>
             <string>niegan</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>negaba</string>
             <key>in_pret_imp_t</key>
             <string>negabas</string>
@@ -15695,7 +15695,7 @@
             <string>tropezáis</string>
             <key>in_pres_ell</key>
             <string>tropiezan</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>tropezaba</string>
             <key>in_pret_imp_t</key>
             <string>tropezabas</string>
@@ -15925,7 +15925,7 @@
             <string>retenéis</string>
             <key>in_pres_ell</key>
             <string>retienen</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>retenía</string>
             <key>in_pret_imp_t</key>
             <string>retenías</string>
@@ -16155,7 +16155,7 @@
             <string>seguís</string>
             <key>in_pres_ell</key>
             <string>siguen</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>seguía</string>
             <key>in_pret_imp_t</key>
             <string>seguías</string>
@@ -16385,7 +16385,7 @@
             <string>elegís</string>
             <key>in_pres_ell</key>
             <string>eligen</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>elegía</string>
             <key>in_pret_imp_t</key>
             <string>elegías</string>
@@ -16615,7 +16615,7 @@
             <string>rugís</string>
             <key>in_pres_ell</key>
             <string>rugen</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>rugía</string>
             <key>in_pret_imp_t</key>
             <string>rugías</string>
@@ -16845,7 +16845,7 @@
             <string>prevenís</string>
             <key>in_pres_ell</key>
             <string>previenen</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>prevenía</string>
             <key>in_pret_imp_t</key>
             <string>prevenías</string>
@@ -17075,7 +17075,7 @@
             <string>reponéis</string>
             <key>in_pres_ell</key>
             <string>reponen</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>reponía</string>
             <key>in_pret_imp_t</key>
             <string>reponías</string>
@@ -17305,7 +17305,7 @@
             <string>mecéis</string>
             <key>in_pres_ell</key>
             <string>mecen</string>
-            <key>in_pret_imp_yes_ell</key>
+            <key>in_pret_imp_y</key>
             <string>mecía</string>
             <key>in_pret_imp_t</key>
             <string>mecías</string>
