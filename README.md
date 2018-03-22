@@ -4,7 +4,7 @@ Verbos Español
 
 ![Scheme](/readmeImages/SimulatorScreenShot-iPhone8Plus-2018-03-22at19.41.25.png)
 ![Scheme](/readmeImages/SimulatorScreenShot-iPhone8Plus-2018-03-22at19.41.42.png)
-![Scheme](/readmeImages/SimulatorScreenShot-iPhone8Plus-2018-03-22at19.41.25.png)
+![Scheme](/readmeImages/SimulatorScreenShot-iPhone8Plus-2018-03-22at19.41.52.png)
 
 iOS application to learn spanish verb tenses.
 
