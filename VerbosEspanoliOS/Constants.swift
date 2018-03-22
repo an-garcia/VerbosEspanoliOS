@@ -14,13 +14,13 @@ struct Constants {
     // Translation language code
     static let NONE = "None"
     static let ENGLISH = "en"
-    static let SPANISH = "es"
+    static let FRENCH = "fr"
     static let PORTUGUESE = "pt"
     
     // Translation language display strings
     static let STR_NONE = "None"
     static let STR_ENGLISH = "English"
-    static let STR_SPANISH = "Español"
+    static let STR_FRENCH = "Français"
     static let STR_PORTUGUESE = "Português"
     
     
@@ -45,15 +45,13 @@ struct Constants {
     
     
     // Pronoms personnels
-    static let JEA = "j'"
-    static let JE = "je "
-    static let TU = "tu "
-    static let IL = "il "
-    static let NOUS = "nous "
-    static let VOUS = "vous "
-    static let ILS = "ils "
+    static let YO = "yo "
+    static let TU = "tú "
+    static let EL = "él "
+    static let NOSOTROS = "nosotros "
+    static let VOSOTROS = "vosotros "
+    static let ELLOS = "ellos "
     static let QUE = "que "
-    static let QUEA = "qu'"
     
     // Pronoms reflexive
     static let MEA = "m'"

@@ -166,7 +166,7 @@ class ViewUtils {
             Option(NSLocalizedString("None", comment: ""), Constants.NONE),
             Option(Constants.STR_ENGLISH, Constants.ENGLISH),
             Option(Constants.STR_PORTUGUESE, Constants.PORTUGUESE),
-            Option(Constants.STR_SPANISH, Constants.SPANISH)]
+            Option(Constants.STR_FRENCH, Constants.FRENCH)]
         return languages
     }
     
@@ -193,8 +193,8 @@ class ViewUtils {
         switch (language) {
         case Constants.ENGLISH:
             translation = verb.translationEN
-        case Constants.SPANISH:
-            translation = verb.translationPT
+        case Constants.FRENCH:
+            translation = verb.translationFR
         case Constants.PORTUGUESE:
             translation = verb.translationPT
         default:
