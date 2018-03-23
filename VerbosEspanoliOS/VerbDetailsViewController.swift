@@ -18,9 +18,8 @@ public extension String
         return self
     }
     
-    func reversed() -> String {
-        let aux = self.reversed()
-        return String(aux)
+    func replaceLast(_ target: String, with replace: String) -> String {
+        return String(String(self.reversed()).replaceFirst("i", with: "í").reversed())
     }
 }
 
@@ -298,19 +297,19 @@ class VerbDetailsViewController: UIViewController {
         switch (id) {
             case 5: // enviar, verbs ending -iar : aliar, amnistiar, confiar, etc.
                 if (model.elementsEqual("enví")) {
-                    rad = rad.reversed().replaceFirst("i", with: "í").reversed()
+                    rad = rad.replaceLast("i", with: "í")
                 }
             case 6: // averiguar, verbs ending -guar, -guarse : achiguar, amortiguar, apaniguarse, etc.
                 if (model.elementsEqual("averigü")) {
-                    rad = rad.reversed().replaceFirst("u", with: "ü").reversed()
+                    rad = rad.replaceLast("u", with: "ü")
                 }
             case 7: // actuar, verbs ending -uar : acentuar, atenuar, situar, etc.
                 if (model.elementsEqual("actú")) {
-                    rad = rad.reversed().replaceFirst("u", with: "ú").reversed()
+                    rad = rad.replaceLast("u", with: "ú")
                 }
             case 9: // aislar, verbs ending -i-ar : ahijar, airar, descafeinar, etc.
                 if (model.elementsEqual("aísl")) {
-                    let aux = infinitive.reversed().replaceFirst("i", with: "í").reversed()
+                    let aux = infinitive.replaceLast("i", with: "í")
                     if (aux.hasSuffix("ar")) {
                         rad = String(aux.prefix(aux.count - 2))
                     } else if (aux.hasSuffix("arse")) {
@@ -319,7 +318,7 @@ class VerbDetailsViewController: UIViewController {
                 }
             case 11: // aunar, verbs ending -u-ar : ahumar, maullar, rehusar, etc.
                 if (model.elementsEqual("aún")) {
-                    let aux = infinitive.reversed().replaceFirst("u", with: "ú").reversed()
+                    let aux = infinitive.replaceLast("u", with: "ú")
                     if (aux.hasSuffix("ar")) {
                         rad = String(aux.prefix(aux.count - 2))
                     } else if (aux.hasSuffix("arse")) {
@@ -328,7 +327,7 @@ class VerbDetailsViewController: UIViewController {
                 }
             case 13: // descafeinar, verbs ending -i-ar : airar, desahijar, sobrehilar, etc.
                 if (model.elementsEqual("descafeín")) {
-                    let aux = infinitive.reversed().replaceFirst("i", with: "í").reversed()
+                    let aux = infinitive.replaceLast("i", with: "í")
                     if (aux.hasSuffix("ar")) {
                         rad = String(aux.prefix(aux.count - 2))
                     } else if (aux.hasSuffix("arse")) {
@@ -337,7 +336,7 @@ class VerbDetailsViewController: UIViewController {
                 }
             case 15: // rehusar, verbs ending -u-ar : ahumar, aunar, maullar, etc.
                 if (model.elementsEqual("rehús")) {
-                    let aux = infinitive.reversed().replaceFirst("u", with: "ú").reversed()
+                    let aux = infinitive.replaceLast("u", with: "ú")
                     if (aux.hasSuffix("ar")) {
                         rad = String(aux.prefix(aux.count - 2))
                     } else if (aux.hasSuffix("arse")) {
@@ -346,11 +345,11 @@ class VerbDetailsViewController: UIViewController {
                 }
             case 16: // acertar, verbs ending -e-ar : acrecentar, arrendar, merendar, etc.
                 if (model.elementsEqual("aciert")) {
-                    rad = rad.reversed().replaceFirst("e", with: "ei").reversed()
+                    rad = rad.replaceLast("e", with: "ei")
                 }
             case 17: // adquirir, verbs ending -i-ir : no know
                 if (model.elementsEqual("adquier")) {
-                    let aux = infinitive.reversed().replaceFirst("i", with: "ei").reversed()
+                    let aux = infinitive.replaceLast("i", with: "ei")
                     if (aux.hasSuffix("ir")) {
                         rad = String(aux.prefix(aux.count - 2))
                     } else if (aux.hasSuffix("irse")) {
@@ -359,7 +358,7 @@ class VerbDetailsViewController: UIViewController {
                 }
             case 18: // agradecer, verbs ending -cer : abastecer, conocer, enriquecer, etc.
                 if (model.elementsEqual("agradezc")) {
-                    let aux = infinitive.reversed().replaceFirst("c", with: "cz").reversed()
+                    let aux = infinitive.replaceLast("c", with: "cz")
                     if (aux.hasSuffix("er")) {
                         rad = String(aux.prefix(aux.count - 2))
                     } else if (aux.hasSuffix("erse")) {
@@ -368,7 +367,7 @@ class VerbDetailsViewController: UIViewController {
                 }
             case 20: // asir, verbs ending -ir : desasir, etc.
                 if (model.elementsEqual("asg")) {
-                    rad = rad.reversed().replaceFirst("s", with: "gs").reversed()
+                    rad = rad.replaceLast("s", with: "gs")
                 }
             case 21: // caber, : no known
                 break
@@ -390,7 +389,7 @@ class VerbDetailsViewController: UIViewController {
                 }
             case 26: // contar, verbs ending -o-ar: acordar, afollarse, desollar, etc.
                 if (model.elementsEqual("cuent")) {
-                    rad = rad.reversed().replaceFirst("o", with: "eu").reversed()
+                    rad = rad.replaceLast("o", with: "eu")
                 }
             case 28: // decir, verbs ending -ecir: decir, bendecir, maldecir, etc.
                 if (model.elementsEqual("d")) {
@@ -402,17 +401,17 @@ class VerbDetailsViewController: UIViewController {
                 }
             case 29: // discernir, verbs ending -e-ir: cernir, concernir, hendir, etc.
                 if (model.elementsEqual("disciern")) {
-                    rad = rad.reversed().replaceFirst("e", with: "ei").reversed()
+                    rad = rad.replaceLast("e", with: "ei")
                 }
             case 30: // dormir, verbs ending -o-ir: dormir, morir, premorir, etc.
                 if (model.elementsEqual("durm")) {
-                    rad = rad.reversed().replaceFirst("o", with: "u").reversed()
+                    rad = rad.replaceLast("o", with: "u")
                 } else if (model.contains("duerm")) {
-                    rad = rad.reversed().replaceFirst("o", with: "eu").reversed()
+                    rad = rad.replaceLast("o", with: "eu")
                 }
             case 31: // entender, verbs ending -e-er: ascender, heder, verter, etc.
                 if (model.elementsEqual("entiend")) {
-                    rad = rad.reversed().replaceFirst("e", with: "ei").reversed()
+                    rad = rad.replaceLast("e", with: "ei")
                 }
             case 32: // erguir, : no known
                 break
@@ -432,17 +431,17 @@ class VerbDetailsViewController: UIViewController {
                 break
             case 40: // lucir, verbs ending -ucir: balbucir, relucir, translucir, etc.
                 if (model.elementsEqual("luzc")) {
-                    rad = rad.reversed().replaceFirst("c", with: "cz").reversed()
+                    rad = rad.replaceLast("c", with: "cz")
                 }
             case 41: // mover, verbs ending -o-er: absolver, condolerse, llover, etc.
                 if (model.elementsEqual("muev")) {
-                    rad = rad.reversed().replaceFirst("o", with: "eu").reversed()
+                    rad = rad.replaceLast("o", with: "eu")
                 }
             case 44: // oler, no known
                 break
             case 45: // pedir, verbs ending -e-ir: acomedirse, competir, vestir, etc.
                 if (model.elementsEqual("pid")) {
-                    rad = rad.reversed().replaceFirst("e", with: "i").reversed()
+                    rad = rad.replaceLast("e", with: "i")
                 }
             case 46: // poder, no known
                 break
@@ -450,7 +449,7 @@ class VerbDetailsViewController: UIViewController {
                 break
             case 48: // podrir o pudrir, verbs ending -o-ir or -u-ir: podrir, repudrir, etc.
                 if (model.elementsEqual("podr")) {
-                    rad = rad.reversed().replaceFirst("u", with: "o").reversed()
+                    rad = rad.replaceLast("u", with: "o")
                 }
             case 49: // querer, verbs ending -querer:
                 if (model.elementsEqual("qui")) {
@@ -464,13 +463,13 @@ class VerbDetailsViewController: UIViewController {
                 break
             case 53: // sentir, verbs ending -e-ir : advertir, arrepentirse, hervir, requerir, etc.
                 if (model.elementsEqual("sint")) {
-                    rad = rad.reversed().replaceFirst("e", with: "i").reversed()
+                    rad = rad.replaceLast("e", with: "i")
                 } else if (model.elementsEqual("sient")) {
-                    rad = rad.reversed().replaceFirst("e", with: "ei").reversed()
+                    rad = rad.replaceLast("e", with: "ei")
                 }
             case 55: // sonreír, verbs ending -eír : reír, engreír, freír, etc.
                 if (model.elementsEqual("sonr")) {
-                    rad = rad.reversed().replaceFirst("e", with: "").reversed()
+                    rad = rad.replaceLast("e", with: "")
                 }
             case 57: // tener, no know
                 break
@@ -478,82 +477,82 @@ class VerbDetailsViewController: UIViewController {
                 break
             case 62: // yacer, verbs ending -acer : subyacer, etc.
                 if (model.elementsEqual("ya")) {
-                    rad = rad.reversed().replaceFirst("c", with: "").reversed()
+                    rad = rad.replaceLast("c", with: "")
                 }
             case 63: // sacar, verbs ending -car : abanicar, acurrucarse, alambicar, churruscar, etc.
                 if (model.elementsEqual("saqu")) {
-                    rad = rad.reversed().replaceFirst("c", with: "uq").reversed()
+                    rad = rad.replaceLast("c", with: "uq")
                 }
             case 65: // forzar, verbs ending -orzar : almorzar, disforzar, esforzar, etc.
                 if (model.elementsEqual("fuerz")) {
-                    rad = rad.reversed().replaceFirst("o", with: "eu").reversed()
+                    rad = rad.replaceLast("o", with: "eu")
                 } else if (model.elementsEqual("forc")) {
-                    rad = rad.reversed().replaceFirst("z", with: "c").reversed()
+                    rad = rad.replaceLast("z", with: "c")
                 } else if (model.elementsEqual("fuerc")) {
-                    rad = rad.reversed().replaceFirst("zro", with: "creu").reversed()
+                    rad = rad.replaceLast("zro", with: "creu")
                 }
             case 66: // cazar, verbs ending -zar : abalanzarse, actualizar, embozar, etc.
                 if (model.elementsEqual("cac")) {
-                    rad = rad.reversed().replaceFirst("z", with: "c").reversed()
+                    rad = rad.replaceLast("z", with: "c")
                 }
             case 67: // coger, verbs ending -ger : absterger, desproteger, encoger, etc.
                 if (model.elementsEqual("coj")) {
-                    rad = rad.reversed().replaceFirst("g", with: "j").reversed()
+                    rad = rad.replaceLast("g", with: "j")
                 }
             case 68: // negar, verbs ending -egar : denegar, estregar, refregar, etc.
                 if (model.elementsEqual("nieg")) {
-                    rad = rad.reversed().replaceFirst("e", with: "ei").reversed()
+                    rad = rad.replaceLast("e", with: "ei")
                 }
             case 69: // tropezar, verbs ending -e-zar : comenzar, recomenzar, etc.
                 if (model.elementsEqual("tropiez")) {
-                    rad = rad.reversed().replaceFirst("e", with: "ei").reversed()
+                    rad = rad.replaceLast("e", with: "ei")
                 } else if (model.elementsEqual("tropec")) {
-                    rad = rad.reversed().replaceFirst("z", with: "c").reversed()
+                    rad = rad.replaceLast("z", with: "c")
                 } else if (model.elementsEqual("tropiec")) {
-                    rad = rad.reversed().replaceFirst("z", with: "c")
-                        .replaceFirst("e", with: "ei").reversed()
+                    rad = rad.replaceLast("z", with: "c")
+                        .replaceLast("e", with: "ei")
                 }
             case 70: // retener, verbs ending -ener : abstenerse, contener, obtener, etc.
                 if (model.elementsEqual("retien")) {
-                    rad = rad.reversed().replaceFirst("e", with: "ei").reversed()
+                    rad = rad.replaceLast("e", with: "ei")
                 } else if (model.elementsEqual("retuv")) {
-                    rad = rad.reversed().replaceFirst("ne", with: "vu").reversed()
+                    rad = rad.replaceLast("ne", with: "vu")
                 } else if (model.elementsEqual("retén")) {
-                    rad = rad.reversed().replaceFirst("e", with: "é").reversed()
+                    rad = rad.replaceLast("e", with: "é")
                 }
             case 71: // seguir, verbs ending -eguir : conseguir, perseguir, proseguir, etc.
                 if (model.elementsEqual("sig")) {
-                    rad = rad.reversed().replaceFirst("uge", with: "gi").reversed()
+                    rad = rad.replaceLast("uge", with: "gi")
                 }
             case 72: // elegir, verbs ending -egir : corregir, reelegir, regir, etc.
                 if (model.elementsEqual("elig")) {
-                    rad = rad.reversed().replaceFirst("e", with: "i").reversed()
+                    rad = rad.replaceLast("e", with: "i")
                 } else if (model.elementsEqual("elij")) {
-                    rad = rad.reversed().replaceFirst("ge", with: "ji").reversed()
+                    rad = rad.replaceLast("ge", with: "ji")
                 } else if (model.elementsEqual("elec")) {
-                    rad = rad.reversed().replaceFirst("g", with: "c").reversed()
+                    rad = rad.replaceLast("g", with: "c")
                 }
             case 73: // rugir, verbs ending -gir : convergir, exigir, surgir, etc.
                 if (model.elementsEqual("ruj")) {
-                    rad = rad.reversed().replaceFirst("g", with: "j").reversed()
+                    rad = rad.replaceLast("g", with: "j")
                 }
             case 74: // prevenir, verbs ending -enir : avenir, provenir, sobrevenir, etc.
                 if (model.elementsEqual("previn")) {
-                    rad = rad.reversed().replaceFirst("e", with: "i").reversed()
+                    rad = rad.replaceLast("e", with: "i")
                 } else if (model.elementsEqual("previen")) {
-                    rad = rad.reversed().replaceFirst("e", with: "ei").reversed()
+                    rad = rad.replaceLast("e", with: "ei")
                 } else if (model.elementsEqual("prevén")) {
-                    rad = rad.reversed().replaceFirst("e", with: "é").reversed()
+                    rad = rad.replaceLast("e", with: "é")
                 }
             case 75: // reponer, verbs ending -oner : componer, exponer, suponer, etc.
                 if (model.elementsEqual("repu")) {
-                    rad = rad.reversed().replaceFirst("no", with: "u").reversed()
+                    rad = rad.replaceLast("no", with: "u")
                 } else if (model.elementsEqual("repón")) {
-                    rad = rad.reversed().replaceFirst("o", with: "ó").reversed()
+                    rad = rad.replaceLast("o", with: "ó")
                 }
             case 76: // mecer, verbs ending -cer : coercer, convencer, vencer, etc.
                 if (model.elementsEqual("mez")) {
-                    rad = rad.reversed().replaceFirst("c", with: "z").reversed()
+                    rad = rad.replaceLast("c", with: "z")
                 }
             default:
                 break
