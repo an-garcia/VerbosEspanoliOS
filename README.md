@@ -1,6 +1,6 @@
 Verbos Español
 =====================
-[![Download on the App Store](http://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-lrg.svg)](https://itunes.apple.com/us/app/verbos-español/id1338263242?ls=1&mt=8)
+[![Download on the App Store](http://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-lrg.svg)](https://itunes.apple.com/us/app/verbos-español/id1363620953?ls=1&mt=8)
 
 ![Scheme](/readmeImages/SimulatorScreenShot-iPhone8Plus-2018-03-22at19.41.25.png)
 ![Scheme](/readmeImages/SimulatorScreenShot-iPhone8Plus-2018-03-22at19.41.42.png)
